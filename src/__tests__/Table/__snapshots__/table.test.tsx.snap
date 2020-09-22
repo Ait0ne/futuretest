@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`table renders correctly 1`] = `
+<styled.div>
+  <styled.table>
+    <thead>
+      <tr>
+        <styled.th
+          key="0"
+          onClick={[Function]}
+        >
+          id
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Object {
+                "icon": Array [
+                  320,
+                  512,
+                  Array [],
+                  "f0d7",
+                  "M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z",
+                ],
+                "iconName": "caret-down",
+                "prefix": "fas",
+              }
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            swapOpacity={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
+        </styled.th>
+        <styled.th
+          key="1"
+          onClick={[Function]}
+        >
+          firstName
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Object {
+                "icon": Array [
+                  320,
+                  512,
+                  Array [],
+                  "f0d7",
+                  "M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z",
+                ],
+                "iconName": "caret-down",
+                "prefix": "fas",
+              }
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            swapOpacity={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
+        </styled.th>
+        <styled.th
+          key="2"
+          onClick={[Function]}
+        >
+          lastName
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Object {
+                "icon": Array [
+                  320,
+                  512,
+                  Array [],
+                  "f0d7",
+                  "M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z",
+                ],
+                "iconName": "caret-down",
+                "prefix": "fas",
+              }
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            swapOpacity={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
+        </styled.th>
+        <styled.th
+          key="3"
+          onClick={[Function]}
+        >
+          email
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Object {
+                "icon": Array [
+                  320,
+                  512,
+                  Array [],
+                  "f0d7",
+                  "M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z",
+                ],
+                "iconName": "caret-down",
+                "prefix": "fas",
+              }
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            swapOpacity={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
+        </styled.th>
+        <styled.th
+          key="4"
+          onClick={[Function]}
+        >
+          phone
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Object {
+                "icon": Array [
+                  320,
+                  512,
+                  Array [],
+                  "f0d7",
+                  "M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z",
+                ],
+                "iconName": "caret-down",
+                "prefix": "fas",
+              }
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            swapOpacity={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
+        </styled.th>
+      </tr>
+    </thead>
+    <tbody>
+      <styled.tr
+        active={false}
+        key="0"
+        onClick={[Function]}
+      >
+        <td
+          key="0"
+        >
+          599
+        </td>
+        <td
+          key="1"
+        >
+          Ning
+        </td>
+        <td
+          key="2"
+        >
+          Sherman
+        </td>
+        <td
+          key="3"
+        >
+          TGalvez@vitae.org
+        </td>
+        <td
+          key="4"
+        >
+          (906)905-9693
+        </td>
+      </styled.tr>
+      <styled.tr
+        active={false}
+        key="1"
+        onClick={[Function]}
+      >
+        <td
+          key="0"
+        >
+          594
+        </td>
+        <td
+          key="1"
+        >
+          Sanjeev
+        </td>
+        <td
+          key="2"
+        >
+          Settle
+        </td>
+        <td
+          key="3"
+        >
+          SBarrientos@sollicitudin.ly
+        </td>
+        <td
+          key="4"
+        >
+          (716)271-5941
+        </td>
+      </styled.tr>
+      <styled.tr
+        active={false}
+        key="2"
+        onClick={[Function]}
+      >
+        <td
+          key="0"
+        >
+          364
+        </td>
+        <td
+          key="1"
+        >
+          Lynda
+        </td>
+        <td
+          key="2"
+        >
+          Lompa
+        </td>
+        <td
+          key="3"
+        >
+          SSchamber@lacus.com
+        </td>
+        <td
+          key="4"
+        >
+          (948)483-7779
+        </td>
+      </styled.tr>
+    </tbody>
+  </styled.table>
+</styled.div>
+`;

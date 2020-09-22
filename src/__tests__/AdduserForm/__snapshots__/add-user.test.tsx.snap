@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`empty form renders correctly 1`] = `
+<AddUserForm
+  addRow={[MockFunction]}
+>
+  <styled.form
+    onSubmit={[Function]}
+  >
+    <form
+      className="sc-bdnylx dEMiuQ"
+      onSubmit={[Function]}
+    >
+      <styled.input
+        name="id"
+        onChange={[Function]}
+        placeholder="Id"
+        type="text"
+        value=""
+      >
+        <input
+          className="sc-dlnjPT lovDsq"
+          name="id"
+          onChange={[Function]}
+          placeholder="Id"
+          type="text"
+          value=""
+        />
+      </styled.input>
+      <styled.input
+        name="firstName"
+        onChange={[Function]}
+        placeholder="FirstName"
+        type="text"
+        value=""
+      >
+        <input
+          className="sc-dlnjPT lovDsq"
+          name="firstName"
+          onChange={[Function]}
+          placeholder="FirstName"
+          type="text"
+          value=""
+        />
+      </styled.input>
+      <styled.input
+        name="lastName"
+        onChange={[Function]}
+        placeholder="LastName"
+        type="text"
+        value=""
+      >
+        <input
+          className="sc-dlnjPT lovDsq"
+          name="lastName"
+          onChange={[Function]}
+          placeholder="LastName"
+          type="text"
+          value=""
+        />
+      </styled.input>
+      <styled.input
+        name="email"
+        onChange={[Function]}
+        placeholder="Email"
+        type="text"
+        value=""
+      >
+        <input
+          className="sc-dlnjPT lovDsq"
+          name="email"
+          onChange={[Function]}
+          placeholder="Email"
+          type="text"
+          value=""
+        />
+      </styled.input>
+      <styled.input
+        name="phone"
+        onChange={[Function]}
+        placeholder="Phone"
+        type="text"
+        value=""
+      >
+        <input
+          className="sc-dlnjPT lovDsq"
+          name="phone"
+          onChange={[Function]}
+          placeholder="Phone"
+          type="text"
+          value=""
+        />
+      </styled.input>
+      <styled.button
+        disabled={true}
+      >
+        <button
+          className="sc-gtssRu eOovzA"
+          disabled={true}
+        >
+          Добавить в таблицу
+        </button>
+      </styled.button>
+    </form>
+  </styled.form>
+</AddUserForm>
+`;

@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination renders correctly 1`] = `
+<Pagination
+  pagination={
+    Object {
+      "currentPage": 0,
+      "perPage": 50,
+    }
+  }
+  rowNumber={500}
+  setCurrentPage={[MockFunction]}
+>
+  <styled.div>
+    <div
+      className="sc-bdnylx cRWxg"
+    >
+      <div>
+        <styled.span
+          onClick={[Function]}
+        >
+          <span
+            className="sc-gtssRu kkeeNc"
+            onClick={[Function]}
+          >
+            «
+          </span>
+        </styled.span>
+        <styled.span
+          disabled={true}
+        >
+          <span
+            className="sc-gtssRu lltIXf"
+            disabled={true}
+          >
+            ‹
+          </span>
+        </styled.span>
+        <styled.span
+          active={true}
+          key="0"
+          onClick={[Function]}
+        >
+          <span
+            className="sc-gtssRu gGJAup"
+            onClick={[Function]}
+          >
+            1
+          </span>
+        </styled.span>
+        <styled.span
+          active={false}
+          key="1"
+          onClick={[Function]}
+        >
+          <span
+            className="sc-gtssRu kkeeNc"
+            onClick={[Function]}
+          >
+            2
+          </span>
+        </styled.span>
+        <styled.span
+          active={false}
+          key="2"
+          onClick={[Function]}
+        >
+          <span
+            className="sc-gtssRu kkeeNc"
+            onClick={[Function]}
+          >
+            3
+          </span>
+        </styled.span>
+        <styled.span
+          active={false}
+          key="3"
+          onClick={[Function]}
+        >
+          <span
+            className="sc-gtssRu kkeeNc"
+            onClick={[Function]}
+          >
+            4
+          </span>
+        </styled.span>
+        <styled.span
+          active={false}
+          key="4"
+          onClick={[Function]}
+        >
+          <span
+            className="sc-gtssRu kkeeNc"
+            onClick={[Function]}
+          >
+            5
+          </span>
+        </styled.span>
+        <styled.span
+          disabled={false}
+          onClick={[Function]}
+        >
+          <span
+            className="sc-gtssRu kkeeNc"
+            disabled={false}
+            onClick={[Function]}
+          >
+            ›
+          </span>
+        </styled.span>
+        <styled.span
+          onClick={[Function]}
+        >
+          <span
+            className="sc-gtssRu kkeeNc"
+            onClick={[Function]}
+          >
+            »
+          </span>
+        </styled.span>
+      </div>
+    </div>
+  </styled.div>
+</Pagination>
+`;

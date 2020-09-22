@@ -1,25 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import DataSizePicker from './components/DataSizePicker/dataSize-picker.component'
+import {useUsersList} from './components/UsersListProvider/users-list-provide.component';
+import Loader from './components/Loader/loader.component';
+import Main from './components/Main/main.component';
+import Alert from './components/Alert/alert.component';
 
-function App() {
+import {AppContainer} from './App.styles';
+
+const  App = () => {
+  const {loading, error, usersList, addUser, clearErrors}  = useUsersList()
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <AppContainer>
+        {
+          loading? <Loader/>
+          :null
+        }
+        <DataSizePicker />
+        {
+          error? <Alert onClose={clearErrors} message='При загрузке данных произошла ошибка'/>
+          :null
+        }
+        {
+          usersList.length>0 ? <Main list={usersList} addRow={addUser}/> : null
+        }
+      </AppContainer>
   );
 }
 

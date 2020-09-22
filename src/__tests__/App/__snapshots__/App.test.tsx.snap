@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app in normal state renders correctly 1`] = `
+<App>
+  <styled.div>
+    <div
+      className="sc-fFSRdu dJGnaS"
+    >
+      <DataSizePicker>
+        <styled.div>
+          <div
+            className="sc-dlnjPT hqyxOp"
+          >
+            <span>
+              Выберите размер набора данных:
+            </span>
+            <styled.div>
+              <div
+                className="sc-hKFyIo eNOVOQ"
+              >
+                <styled.button
+                  disabled={false}
+                  name="smallDataSize"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="sc-bdnylx kJaVHl"
+                    disabled={false}
+                    name="smallDataSize"
+                    onClick={[Function]}
+                  >
+                    Маленький
+                  </button>
+                </styled.button>
+                <styled.button
+                  disabled={false}
+                  name="largeDataSize"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="sc-bdnylx kJaVHl"
+                    disabled={false}
+                    name="largeDataSize"
+                    onClick={[Function]}
+                  >
+                    Большой
+                  </button>
+                </styled.button>
+              </div>
+            </styled.div>
+          </div>
+        </styled.div>
+      </DataSizePicker>
+    </div>
+  </styled.div>
+</App>
+`;

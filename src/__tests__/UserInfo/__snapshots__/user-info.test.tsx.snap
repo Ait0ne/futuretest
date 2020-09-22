@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserInfo component renders correctly 1`] = `
+<styled.div>
+  <span>
+    Выбран пользователь 
+    <styled.span>
+      Ning Sherman
+    </styled.span>
+  </span>
+  <span>
+    Описание:
+  </span>
+  <p>
+    tempor vestibulum sit turpis fringilla dolor velit amet non scelerisque quis mattis curabitur amet tellus donec ac morbi pulvinar lectus tincidunt dolor dolor sed nullam sed fringilla dolor vitae nec ipsum sollicitudin
+  </p>
+  <span>
+    Адрес проживания: 
+    <styled.span>
+      9317 Nec Ave
+    </styled.span>
+  </span>
+  <span>
+    Город: 
+    <styled.span>
+      Riverview
+    </styled.span>
+  </span>
+  <span>
+    Провинция/штат: 
+    <styled.span>
+      MT
+    </styled.span>
+  </span>
+  <span>
+    Индекс: 
+    <styled.span>
+      43092
+    </styled.span>
+  </span>
+</styled.div>
+`;
